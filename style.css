@@ -10,25 +10,114 @@ h1{
 }
 h2{
     font-size: 35px;
-    line-height: 75px;
+    margin-top: 20px;
 }
 h3{
     font-size: 27px;
 }
 p{
     font-size: 18px;
+    margin: 20px auto;
+}
+#nav-menu{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    font-size: 20px;
+    background-color:cyan;
+
+}
+.nav-list{
+    display: flex;
+    justify-content: flex-end;
+}
+.nav-item{
+    text-decoration: none;
+    line-height: 25px;
+    padding: 7px;
+    margin: 10px 20px;
+    color: rgb(254, 0, 0);
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px;
+}
+.nav-item:hover{
+    background-color: crimson;
+    color: white;
+}
+#welcome{
+    margin-top: 50px;
+    background-image: url(images/Frame\ 57.jpg);
+    background-size: cover;
+}
+img{
+    width: 100%;
+    margin: 10px 0;
 }
 span{
     color: crimson;
-    line-height: 90px;
 }
-section{
+.flex-items{
     display: flex;
+    padding: 1rem;
 }
-div{
-    padding: 1em;
+.flex-items div{
     width: 50%;
+    padding: 0 30px 30px;
+    Margin: auto 15px;
 }
-#menus-heading{
-    display: block;
+.special-text{
+    color: orange;
+    font-size: 25px;
+}
+.button{
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-image: linear-gradient(crimson, tomato);
+    color: white;
+    font-weight: 400;
+    font-size: 17px;
+  }
+#about-us{
+    background-image: url(images/Frame\ 58.jpg);
+    background-size: cover;
+}
+.menu-heading{
+    font-size: 45px;
+    text-align: center;
+}
+.menu-para{
+    text-align: center;
+}
+.menu{
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 1px;
+}
+.online{
+    text-align: center;
+    background-image: linear-gradient(orange, black);
+    line-height: 60px;
+    color: white;
+    margin: 50px 30px 10px 30px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.followers{
+    margin: 45px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 1px 1px 30px 5px;
+}
+.contact-info{
+    text-align: center;
+}
+footer{
+    background-color: cyan;
+    text-align: center;
+}
+footer p{
+    margin: 0;
+    padding-bottom: 10px;
 }
